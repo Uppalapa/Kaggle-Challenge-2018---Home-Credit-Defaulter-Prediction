@@ -46,7 +46,8 @@ Explored the % of unpaid loans by the following categories
 
 # 3. Missing Data Observations
 Given data has a lot of missing values. Analysed the % of missing values in each column
-<img width="263"  src="https://user-images.githubusercontent.com/42013395/43896490-fc8e69de-9ba6-11e8-8ea7-edc9e5fe8762.png" />
+
+<img width="800" height = "600"  src="https://user-images.githubusercontent.com/42013395/43896490-fc8e69de-9ba6-11e8-8ea7-edc9e5fe8762.png">
 
 # 4. Handling Missing Data
 Handeled both test and train data
@@ -85,4 +86,5 @@ Selected XGBoost Classifier
 # 9. Conclusion
 <img width="491" alt="target_edu_comp" src="https://user-images.githubusercontent.com/42013395/43896492-fcb57f9c-9ba6-11e8-8677-9a798aae588b.PNG">
 <img width="477" alt="target_housing_cmp" src="https://user-images.githubusercontent.com/42013395/43896493-fcca1a2e-9ba6-11e8-8f4b-5bb26bc6bd60.PNG">
+
 ##  <a href="https://drive.google.com/drive/folders/1FdJc3mLMc-3hTXCkW4toVBoxi0mCQ-0U?usp=sharing">OUTPUT FILE</a>
