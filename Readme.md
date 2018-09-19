@@ -11,7 +11,7 @@ repayment are not rejected and that loans are given with a principal, maturity, 
 * Predicting whether or not a client will repay a loan or have difficulty is a critical business need.
 ## 1.2 Data Description
 ### (Data Source - <a href="https://www.kaggle.com/c/home-credit-default-risk/data">DATA LINK </a> , Data Size - 3GB)
-### <a href="https://drive.google.com/open?id=13fWkR-mqlqYcG9uv1-ABebXwP7kvuH1v">DATA</a>
+### Project Data link - <a href="https://drive.google.com/open?id=13fWkR-mqlqYcG9uv1-ABebXwP7kvuH1v">DATA</a>
 ## 1.3 About the Data
 <img width="700" height="500" align="center" alt="home_credit" src="https://user-images.githubusercontent.com/42013395/45705337-2e088480-bb2e-11e8-8343-6a4937552052.png">
 
