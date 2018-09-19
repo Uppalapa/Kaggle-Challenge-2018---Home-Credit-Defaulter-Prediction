@@ -13,14 +13,14 @@ repayment are not rejected and that loans are given with a principal, maturity, 
 ### (Data Source - <a href="https://www.kaggle.com/c/home-credit-default-risk/data">DATA LINK </a> , Data Size - 3GB)
 ### (<a href="https://drive.google.com/open?id=13fWkR-mqlqYcG9uv1-ABebXwP7kvuH1v">DATA</a>,  <a href="https://drive.google.com/drive/folders/1FdJc3mLMc-3hTXCkW4toVBoxi0mCQ-0U?usp=sharing">OUTPUT FILE</a>)
 ## 1.3 About the Data
-<img width="600", height="500" align="center" alt="home_credit" src="https://user-images.githubusercontent.com/42013395/45705337-2e088480-bb2e-11e8-8343-6a4937552052.png" />
+<img width="600", height="500" align="center" alt="home_credit" src="https://user-images.githubusercontent.com/42013395/45705337-2e088480-bb2e-11e8-8343-6a4937552052.png">
 
 * application_train/application_test: It is the main training and testing data with information about each loan application at Home Credit. Every loan is identified by the column SK_ID_CURR. Traing data set has the column Target which specifies if the loan was repaid or not. 0 indicated loan was repaid. 1 - not repaid (Bad debts) 
 * Note - There are 122 columns and 400,000 rows
 
 ## 1.2 Python Packages Used
 
-
+<img width="700" height = "300" align="center" alt="packagenames" src="https://user-images.githubusercontent.com/25045759/45779873-18b85680-bc11-11e8-8275-3101afca69d1.PNG">
 
 # 2. Exploratory Data Analysis
 EDA helps us to make inferences from the data so that we can decide the features to use for modelling data. It generally starts out with a high level overview, then narrows in to specific areas as we find intriguing areas of the data.
