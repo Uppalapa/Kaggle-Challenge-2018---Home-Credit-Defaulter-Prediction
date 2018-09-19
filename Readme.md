@@ -2,40 +2,22 @@
 # Kaggle Challenge 2018 - Home Credit Defaulter Prediction
 # 1. Introduction
 Home credit is an international non-bank financial institution which focuses on lending primarily to people with little or no credit history. They have challeneged the Kaggles to unleash the full potential of data to predict the clients repayment ability. In this project we are trying to predict the probability that a client repays the loan using ML algorithms.
-## 1.1 Data Description
+## 1.1 Problem Statement
+* Many people struggle to get loans due to insufficient or non-existent credit histories. And, unfortunately, this population is often taken advantage of by untrustworthy lenders.
+* Home Credit strives to broaden financial inclusion for the unbanked population by providing a positive and safe borrowing experience. * In order to make sure this underserved population has a positive loan experience, they have to ensure clients that are capable of repayment are not rejected and that loans are given with a principal, maturity, and repayment calendar that will empower their clients to be successful.
+* Predicting whether or not a client will repay a loan or have difficulty is a critical business need.
+## 1.2 Data Description
 ### (Data Source - <a href="https://www.kaggle.com/c/home-credit-default-risk/data">DATA LINK </a> , Data Size - 3GB)
 ### (<a href="https://drive.google.com/open?id=13fWkR-mqlqYcG9uv1-ABebXwP7kvuH1v">DATA</a>,  <a href="https://drive.google.com/drive/folders/1FdJc3mLMc-3hTXCkW4toVBoxi0mCQ-0U?usp=sharing">OUTPUT FILE</a>)
-## 1.2 About the Data
+## 1.3 About the Data
 <img width="600", height="500" align="center" alt="home_credit" src="https://user-images.githubusercontent.com/42013395/45705337-2e088480-bb2e-11e8-8343-6a4937552052.png" />
 
 * application_train/application_test: It is the main training and testing data with information about each loan application at Home Credit. Every loan is identified by the column SK_ID_CURR. Traing data set has the column Target which specifies if the loan was repaid or not. 0 indicated loan was repaid. 1 - not repaid (Bad debts) 
 * Note - There are 122 columns and 400,000 rows
 
 ## 1.2 Python Packages Used
-* Matplotlib
-* Pandas
-* Scipy
-*  _psi
-*  _polygamma
-* _newton
-* _gamma
-* Sklearn
-* _LabelEncoder
-* _cross_val_score
-* _GaussianNB
-* _SelectFromModel
-* _accuracy_score
-* _RandomForestClassifier
-* _KNeighborsClassifier
-* _LogisticRegression
-* _StandardScaler
-* seaborne
-* Lightgbm
-* XGBoost
-* _XGBClassifier
-* _plot_importance
-* OS
-* pymc3
+
+
 
 # 2. Exploratory Data Analysis
 EDA helps us to make inferences from the data so that we can decide the features to use for modelling data. It generally starts out with a high level overview, then narrows in to specific areas as we find intriguing areas of the data.
