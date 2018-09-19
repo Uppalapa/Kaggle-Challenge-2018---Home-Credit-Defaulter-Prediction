@@ -4,7 +4,10 @@
 Home credit is an international non-bank financial institution which focuses on lending primarily to people with little or no credit history. They have challeneged the Kaggles to unleash the full potential of data to predict the clients repayment ability. In this project we are trying to predict the probability that a client repays the loan using ML algorithms.
 ## 1.1 Problem Statement
 * Many people struggle to get loans due to insufficient or non-existent credit histories. And, unfortunately, this population is often taken advantage of by untrustworthy lenders.
-* Home Credit strives to broaden financial inclusion for the unbanked population by providing a positive and safe borrowing experience. * In order to make sure this underserved population has a positive loan experience, they have to ensure clients that are capable of repayment are not rejected and that loans are given with a principal, maturity, and repayment calendar that will empower their clients to be successful.
+* Home Credit strives to broaden financial inclusion for the unbanked population by providing a positive and safe borrowing experience. 
+
+*  In order to make sure this underserved population has a positive loan experience, they have to ensure clients that are capable of 
+repayment are not rejected and that loans are given with a principal, maturity, and repayment calendar that will empower their clients to be successful.
 * Predicting whether or not a client will repay a loan or have difficulty is a critical business need.
 ## 1.2 Data Description
 ### (Data Source - <a href="https://www.kaggle.com/c/home-credit-default-risk/data">DATA LINK </a> , Data Size - 3GB)
