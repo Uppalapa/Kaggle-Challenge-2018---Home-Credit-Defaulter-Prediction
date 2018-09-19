@@ -11,7 +11,7 @@ repayment are not rejected and that loans are given with a principal, maturity, 
 * Predicting whether or not a client will repay a loan or have difficulty is a critical business need.
 ## 1.2 Data Description
 ### (Data Source - <a href="https://www.kaggle.com/c/home-credit-default-risk/data">DATA LINK </a> , Data Size - 3GB)
-### (<a href="https://drive.google.com/open?id=13fWkR-mqlqYcG9uv1-ABebXwP7kvuH1v">DATA</a>,  <a href="https://drive.google.com/drive/folders/1FdJc3mLMc-3hTXCkW4toVBoxi0mCQ-0U?usp=sharing">OUTPUT FILE</a>)
+### <a href="https://drive.google.com/open?id=13fWkR-mqlqYcG9uv1-ABebXwP7kvuH1v">DATA</a>
 ## 1.3 About the Data
 <img width="700" height="500" align="center" alt="home_credit" src="https://user-images.githubusercontent.com/42013395/45705337-2e088480-bb2e-11e8-8343-6a4937552052.png">
 
@@ -85,3 +85,4 @@ Selected XGBoost Classifier
 # 9. Conclusion
 <img width="491" alt="target_edu_comp" src="https://user-images.githubusercontent.com/42013395/43896492-fcb57f9c-9ba6-11e8-8677-9a798aae588b.PNG">
 <img width="477" alt="target_housing_cmp" src="https://user-images.githubusercontent.com/42013395/43896493-fcca1a2e-9ba6-11e8-8f4b-5bb26bc6bd60.PNG">
+##  <a href="https://drive.google.com/drive/folders/1FdJc3mLMc-3hTXCkW4toVBoxi0mCQ-0U?usp=sharing">OUTPUT FILE</a>
