@@ -64,6 +64,8 @@ Implemented MCMC and MLE algorithms to find the mean value of the number of year
 <img width="263" src="https://user-images.githubusercontent.com/42013395/43910772-b983574c-9bcb-11e8-9b95-9a2dd9f3fc5c.PNG"/>
 
 # 6. Feature Importance
+## Accuracy comparision chart
+
 
 ### 6.1 XGB Classifier
 <img src="https://user-images.githubusercontent.com/42013395/43896487-fc587194-9ba6-11e8-9ce5-059730d36072.png" width="600" height="600" align="center"/>
@@ -72,6 +74,12 @@ Implemented MCMC and MLE algorithms to find the mean value of the number of year
 <img width="600" height="600" src="https://user-images.githubusercontent.com/42013395/43896489-fc7d2aca-9ba6-11e8-8854-7426c5e2c071.PNG" />
 
 # 7. Modelling
+* Used XGB Classifier and modelled train data
+* Applied this classifier to predict the TARGET Values of test data 
+* The result of the predictor from 0 to 1 indicates probability that the loan will be repaid
+* Considering the trend in train data we have chosen a threshold value and categorized the target values to 0 and 1
+* Concatenated the target column to the test dataset
+
 
 ## 7.1 Model Accuracy Comparision
 
@@ -83,8 +91,16 @@ Selected XGBoost Classifier
 # 8. Prediction
 <img src="https://user-images.githubusercontent.com/42013395/43896491-fca404d8-9ba6-11e8-9061-bf40d07b93d2.png" width="600" height="600" align="center">
 
-# 9. Conclusion
 <img width="491" alt="target_edu_comp" src="https://user-images.githubusercontent.com/42013395/43896492-fcb57f9c-9ba6-11e8-8677-9a798aae588b.PNG">
+
 <img width="477" alt="target_housing_cmp" src="https://user-images.githubusercontent.com/42013395/43896493-fcca1a2e-9ba6-11e8-8f4b-5bb26bc6bd60.PNG">
+
+
+# 9. Conclusion
+* Used 6 different classifiers and compared their prediction scores
+* Improved the prediction accuracy up to 92.021 %  by applying feature importance on test data
+* Modelled the training data using XGBoost classifier and predicted target values on test data
+* Predicting the probability that each client (borrower) in the test data repays the loan
+* Obtained satisfactory results when compared the test results with train data
 
 ##  <a href="https://drive.google.com/drive/folders/1FdJc3mLMc-3hTXCkW4toVBoxi0mCQ-0U?usp=sharing">OUTPUT FILE</a>
