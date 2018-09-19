@@ -18,9 +18,13 @@ repayment are not rejected and that loans are given with a principal, maturity, 
 * application_train/application_test: It is the main training and testing data with information about each loan application at Home Credit. Every loan is identified by the column SK_ID_CURR. Traing data set has the column Target which specifies if the loan was repaid or not. 0 indicated loan was repaid. 1 - not repaid (Bad debts) 
 * Note - There are 122 columns and 400,000 rows
 
-## 1.2 Python Packages Used
+## 1.4 Python Packages Used
 
 <img width="700" height = "300" align="center" alt="packagenames" src="https://user-images.githubusercontent.com/25045759/45779873-18b85680-bc11-11e8-8275-3101afca69d1.PNG">
+
+## 1.5 Project workflow
+
+<img width="522" alt="workflow" src="https://user-images.githubusercontent.com/25045759/45781126-07247e00-bc14-11e8-9dcc-15ecc4e1e12d.PNG">
 
 # 2. Exploratory Data Analysis
 EDA helps us to make inferences from the data so that we can decide the features to use for modelling data. It generally starts out with a high level overview, then narrows in to specific areas as we find intriguing areas of the data.
@@ -64,9 +68,6 @@ Implemented MCMC and MLE algorithms to find the mean value of the number of year
 <img width="263" src="https://user-images.githubusercontent.com/42013395/43910772-b983574c-9bcb-11e8-9b95-9a2dd9f3fc5c.PNG"/>
 
 # 6. Feature Importance
-## Accuracy comparision chart
-
-
 ### 6.1 XGB Classifier
 <img src="https://user-images.githubusercontent.com/42013395/43896487-fc587194-9ba6-11e8-9ce5-059730d36072.png" width="600" height="600" align="center"/>
 
@@ -82,6 +83,7 @@ Implemented MCMC and MLE algorithms to find the mean value of the number of year
 
 
 ## 7.1 Model Accuracy Comparision
+<img width="307" alt="accuracy" src="https://user-images.githubusercontent.com/25045759/45781137-0d1a5f00-bc14-11e8-8711-c3f20223f663.PNG">
 
 Probability accury for xgboost - 92%
 
@@ -91,9 +93,11 @@ Selected XGBoost Classifier
 # 8. Prediction
 <img src="https://user-images.githubusercontent.com/42013395/43896491-fca404d8-9ba6-11e8-9061-bf40d07b93d2.png" width="600" height="600" align="center">
 
-<img width="491" alt="target_edu_comp" src="https://user-images.githubusercontent.com/42013395/43896492-fcb57f9c-9ba6-11e8-8677-9a798aae588b.PNG">
+<img width="317" alt="p1" src="https://user-images.githubusercontent.com/25045759/45781111-012e9d00-bc14-11e8-9220-7a33d0bd68ab.PNG">
 
-<img width="477" alt="target_housing_cmp" src="https://user-images.githubusercontent.com/42013395/43896493-fcca1a2e-9ba6-11e8-8f4b-5bb26bc6bd60.PNG">
+<img width="331" alt="p2" src="https://user-images.githubusercontent.com/25045759/45781112-012e9d00-bc14-11e8-8f3c-ca0754703b5e.PNG">
+
+<img width="222" alt="p3" src="https://user-images.githubusercontent.com/25045759/45781114-01c73380-bc14-11e8-9fd4-98f841abf0cd.PNG">
 
 
 # 9. Conclusion
