@@ -3,7 +3,7 @@
 <img width="250" height="200" align="right" src="https://user-images.githubusercontent.com/25045759/45790092-056cb180-bc38-11e8-82cc-5185448f4a53.png">
 
 # 1. Introduction
-Home credit is an international non-bank financial institution which focuses on lending primarily to people with little or no credit history. They have challeneged the Kaggles to unleash the full potential of data to predict the clients repayment ability. In this project we are trying to predict the probability that a client repays the loan using ML algorithms.
+Home credit is an international non-bank financial institution which focuses on lending primarily to people with little or no credit history. They have challeneged the Kagglers to unleash the full potential of data to predict the clients repayment ability. In this project we are trying to solve the binary classification problem using 6 different classifiers, compare thier prediction accuracies and predict the probability that a client repays the loan using ML algorithms.
 
 ## 1.1 Problem Statement
 * Many people struggle to get loans due to insufficient or non-existent credit histories. And, unfortunately, this population is often taken advantage of by untrustworthy lenders.
