@@ -93,11 +93,11 @@ Selected XGBoost Classifier
 # 8. Prediction
 <img src="https://user-images.githubusercontent.com/42013395/43896491-fca404d8-9ba6-11e8-9061-bf40d07b93d2.png" width="600" height="600" align="center">
 
-<img width="400" height="600" alt="p1" src="https://user-images.githubusercontent.com/25045759/45781111-012e9d00-bc14-11e8-9220-7a33d0bd68ab.PNG">
+<img width="700" height="600" align="center" alt="p1" src="https://user-images.githubusercontent.com/25045759/45781111-012e9d00-bc14-11e8-9220-7a33d0bd68ab.PNG">
 
-<img width="400" height="600" alt="p2" src="https://user-images.githubusercontent.com/25045759/45781112-012e9d00-bc14-11e8-8f3c-ca0754703b5e.PNG">
+<img width="700" height="600" align="center" alt="p2" src="https://user-images.githubusercontent.com/25045759/45781112-012e9d00-bc14-11e8-8f3c-ca0754703b5e.PNG">
 
-<img width="400" height="600" alt="p3" src="https://user-images.githubusercontent.com/25045759/45781114-01c73380-bc14-11e8-9fd4-98f841abf0cd.PNG">
+<img width="700" height="600" align="center" alt="p3" src="https://user-images.githubusercontent.com/25045759/45781114-01c73380-bc14-11e8-9fd4-98f841abf0cd.PNG">
 
 
 # 9. Conclusion
