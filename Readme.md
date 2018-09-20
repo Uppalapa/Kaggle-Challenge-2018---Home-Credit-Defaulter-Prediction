@@ -75,30 +75,23 @@ Implemented MCMC and MLE algorithms to find the mean value of the number of year
 <img width="600" height="600" src="https://user-images.githubusercontent.com/42013395/43896489-fc7d2aca-9ba6-11e8-8854-7426c5e2c071.PNG" />
 
 # 7. Modelling
-* Used XGB Classifier and modelled train data
+## 7.1 Model Accuracy Comparision
+<img width="600" height = "600" alt="accuracy" src="https://user-images.githubusercontent.com/25045759/45781137-0d1a5f00-bc14-11e8-8711-c3f20223f663.PNG">
+
+Probability accury for xgboost is the highest of all - 92%
+
+## 7.2 Choosing the best model
+* Selected XGBoost Classifier and modelled train data
 * Applied this classifier to predict the TARGET Values of test data 
 * The result of the predictor from 0 to 1 indicates probability that the loan will be repaid
 * Considering the trend in train data we have chosen a threshold value and categorized the target values to 0 and 1
 * Concatenated the target column to the test dataset
 
-
-## 7.1 Model Accuracy Comparision
-<img width="307" alt="accuracy" src="https://user-images.githubusercontent.com/25045759/45781137-0d1a5f00-bc14-11e8-8711-c3f20223f663.PNG">
-
-Probability accury for xgboost - 92%
-
-## 7.2 Choosing the best model
-Selected XGBoost Classifier
-
 # 8. Prediction
-<img src="https://user-images.githubusercontent.com/42013395/43896491-fca404d8-9ba6-11e8-9061-bf40d07b93d2.png" width="600" height="600" align="center">
-
-<img width="700" height="600" align="center" alt="p1" src="https://user-images.githubusercontent.com/25045759/45781111-012e9d00-bc14-11e8-9220-7a33d0bd68ab.PNG">
-
-<img width="700" height="600" align="center" alt="p2" src="https://user-images.githubusercontent.com/25045759/45781112-012e9d00-bc14-11e8-8f3c-ca0754703b5e.PNG">
-
-<img width="700" height="600" align="center" alt="p3" src="https://user-images.githubusercontent.com/25045759/45781114-01c73380-bc14-11e8-9fd4-98f841abf0cd.PNG">
-
+<img width="301" alt="predictions" src="https://user-images.githubusercontent.com/25045759/45789876-df92dd00-bc36-11e8-8ac0-c4406111de53.PNG">
+* Used predict_proba method to predict the target values based on train data values
+* Considering the trend in train data we have chosen a threshold value and categorized the target values to 0 and 1
+* Concatenated the target column to the test dataset
 
 # 9. Conclusion
 * Used 6 different classifiers and compared their prediction scores
@@ -106,5 +99,12 @@ Selected XGBoost Classifier
 * Modelled the training data using XGBoost classifier and predicted target values on test data
 * Predicting the probability that each client (borrower) in the test data repays the loan
 * Obtained satisfactory results when compared the test results with train data
+<img src="https://user-images.githubusercontent.com/42013395/43896491-fca404d8-9ba6-11e8-9061-bf40d07b93d2.png" width="600" height="600" align="center">
+
+<img width="700" height="600" align="center" alt="p1" src="https://user-images.githubusercontent.com/25045759/45781111-012e9d00-bc14-11e8-9220-7a33d0bd68ab.PNG">
+
+<img width="700" height="600" align="center" alt="p2" src="https://user-images.githubusercontent.com/25045759/45781112-012e9d00-bc14-11e8-8f3c-ca0754703b5e.PNG">
+
+<img width="700" height="600" align="center" alt="p3" src="https://user-images.githubusercontent.com/25045759/45781114-01c73380-bc14-11e8-9fd4-98f841abf0cd.PNG">
 
 ##  <a href="https://drive.google.com/drive/folders/1FdJc3mLMc-3hTXCkW4toVBoxi0mCQ-0U?usp=sharing">OUTPUT FILE</a>
