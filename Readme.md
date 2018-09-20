@@ -88,7 +88,8 @@ Probability accury for xgboost is the highest of all - 92%
 * Concatenated the target column to the test dataset
 
 # 8. Prediction
-<img width="301" alt="predictions" src="https://user-images.githubusercontent.com/25045759/45789876-df92dd00-bc36-11e8-8ac0-c4406111de53.PNG">
+<img width="700" height="600" alt="predictions" src="https://user-images.githubusercontent.com/25045759/45789876-df92dd00-bc36-11e8-8ac0-c4406111de53.PNG">
+
 * Used predict_proba method to predict the target values based on train data values
 * Considering the trend in train data we have chosen a threshold value and categorized the target values to 0 and 1
 * Concatenated the target column to the test dataset
